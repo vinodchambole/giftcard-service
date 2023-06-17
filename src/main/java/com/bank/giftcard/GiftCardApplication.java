@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = {"com.bank.locker"})
+@EntityScan(basePackages = {"com.bank.giftcard"})
 public class GiftCardApplication {
 
 	public static void main(String[] args) {
